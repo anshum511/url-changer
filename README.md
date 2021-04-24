@@ -17,4 +17,6 @@ Inside "longUrl" object, paste your url that has to be shortened and click "Send
 This will generate a response from rest API with fields containing "longUrl" and "shortUrl".
 The "longUrl" is the inserted url, the "shortUrl" is the shortened url, and our required result.
 
+Enhancement: A UI version could also be developed if CORS could be solved without using proxy.
+
 Image with instructions attached![Annotation 2021-04-24 153544](https://user-images.githubusercontent.com/38910619/115955276-25ad2d00-a513-11eb-9bbe-e3dc232b7ec4.jpg)
