@@ -14,7 +14,7 @@ It is recommended to use visual studio code along with Rest Client extension - h
 ## Instruction:
 ### Setting URL
 After executing above 2 commands, open "api.http" file inside "requests" directory.
-Inside "longUrl" object, paste your url that has to be shortened and click "Send Request" at the top.
+Inside "longUrl" object, paste your url that has to be shortened and click "Send Request" at the top. (Send Request will only be visible if you are using Rest Client for VS code)
 
 ### Reading generated shortened URL
 This will generate a response from rest API with fields containing "longUrl" and "shortUrl".
