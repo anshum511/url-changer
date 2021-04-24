@@ -12,8 +12,11 @@ Note: A rest API client is required to run url changer api.
 It is recommended to use visual studio code along with Rest Client extension - https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 
 ### Instruction:
-After executing above 2 commands, open "api.http" file inside project root directory.
+## Setting URL
+After executing above 2 commands, open "api.http" file inside "requests" directory.
 Inside "longUrl" object, paste your url that has to be shortened and click "Send Request" at the top.
+
+## Reading generated shortened URL
 This will generate a response from rest API with fields containing "longUrl" and "shortUrl".
 The "longUrl" is the inserted url, the "shortUrl" is the shortened url, and our required result.
 
